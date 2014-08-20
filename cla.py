@@ -64,7 +64,7 @@ if __name__ == "__main__":
     licence_type = args.licence_type
     usage_type = args.usage_type
     ISBN_name = args.ISBN_name
-    if cla_functions.check_for_integers(excel, ISBN_name) is True:
+    if cla_functions.check_for_integers(excel, ISBN_name):
         print(
             'The input workbook has ISBNs formatted as numbers. '
             'This can cause problems when ISBNs have leading zeros.'

@@ -48,7 +48,7 @@ def check_extensions(p, l):
     """
     if os.path.splitext(p)[1][1:] in l:
         return p
-    elif os.path.splitext(p)[1] != '':
+    elif os.path.splitext(p)[1]:
         message = ("I know about these extensions: {}. "
                    "You have chosen an extension I don't know about: {}."
                    .format(', '.join(l), os.path.splitext(p)[1][1:]))
