@@ -123,7 +123,7 @@ if __name__ == "__main__":
             if '<StatusCode>SUCCESS</StatusCode>' in response.text:
                 pass
             elif '<StatusCode>INVALID_REQUEST_SYSTEM</StatusCode>' in response.text:
-                raise ResponseError('The database did not except your key!')
+                raise ResponseError('The database did not accept your key!')
         else:
             print(
                 'Something went wrong with request {}! '
