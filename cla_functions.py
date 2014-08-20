@@ -73,7 +73,7 @@ def get_column_by_name(worksheet, s):
     """
     matches = 0
     for i in range(1, len(worksheet.columns)+1):
-        if (worksheet.cell(row=1, column=i).value is not None
+        if (worksheet.cell(row=1, column=i).value
                 and worksheet.cell(row=1, column=i).value.strip().lower() ==
                 s.lower()):
             matches += 1
@@ -103,7 +103,7 @@ def get_ISBNs(workbook, s):
     else:
         return [str(worksheet.cell(row=i, column=ISBN_column).value).strip()
                 for i in range(2, len(worksheet.rows)+1)
-                if worksheet.cell(row=i, column=ISBN_column).value is not None]
+                if worksheet.cell(row=i, column=ISBN_column).value]
 
 
 def write_responses(workbook, d, s):
@@ -122,7 +122,7 @@ def write_responses(workbook, d, s):
         raise
     else:
         for i in range(1, len(worksheet.rows)+1):
-            if worksheet.cell(row=i, column=ISBN_column).value is not None\
+            if worksheet.cell(row=i, column=ISBN_column).value\
                     and str(worksheet.cell(row=i, column=ISBN_column).value).strip() in d:
                 worksheet.cell(row=i, column=last_column).value =\
                     d[str(worksheet.cell(row=i, column=ISBN_column).value).strip()]
