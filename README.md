@@ -1,8 +1,4 @@
-Title: CLA-query  
-Author: Thomas Hodgson  
-Date: 31 July 2014  
-
-This script searches the [Copyright Licensing Agency's](http://www.cla.co.uk) database for permissions. The script is written in Python and tested using version 3.4.1 on OSX Mavericks. Note that I'm not affiliated with the CLA, although I did ask them before making this code public. I'd like to thank the people I spoke to for their help. They can be contacted about their API at <api@cla.co.uk>.
+This script searches the [Copyright Licensing Agency's](http://www.cla.co.uk) database for permissions. Note that I'm not affiliated with the CLA, although I did ask them before making this code public. I'd like to thank the people I spoke to for their help. They can be contacted about their API at <api@cla.co.uk>.
 
 # Usage
 
