@@ -12,7 +12,7 @@ Defaults have been set for the named arguments: 132 (a Higher Education licence)
 
 # What it does
 
-The script looks at the file given as an argument, which must be an Excel file with extension '.xlsx' or '.xls'. (The script will find a file with the name given if no extension is specified and one with a suitable extension exists.) The first worksheet in the workbook is inspected for a column header that matches the ISBNname argument. The entries in that column are used to query the CLA's database. A key is read from the key argument; in order to use the script you will need to obtain a key from the CLA. The responses from the database are written to a column called 'Responses' in a new Excel file based on the following mapping:
+The script looks at the file given as an argument, which must be an Excel file with extension '.xlsx' or '.xls'. (The script will find a file with the name given if no extension is specified and one with a suitable extension exists.) The first worksheet in the workbook is inspected for a column header that matches the ISBNname argument. The entries in that column are used to query the CLA's database. A key is read from the key argument; in order to use the script you will need to obtain a key (also known as the 'RequestSystem') from the CLA. The responses from the database are written to a column called 'Responses' in a new Excel file based on the following mapping:
 
 * NegativeHeader -> 'Negative'
 * NeutralHeader -> 'Neutral'
