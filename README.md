@@ -5,7 +5,7 @@ This script searches the [Copyright Licensing Agency's](http://www.cla.co.uk) da
 The script can be run from the command line as follows
 
 ```
-$ python3 cla.py [--LicenceType, -L {132,134,136,137,140,141,143,154,230,232}] [--UsageType, -U {1,2,8}] [--ISBNname, -I ISBN_NAME] [--key, -K KEY] <file>
+$ python3 cla.py [--LicenceType, -L {132,134,136,137,140,141,143,154,230,232, 234,235}] [--UsageType, -U {1,2,8}] [--ISBNname, -I ISBN_NAME] [--key, -K KEY] <file>
 ```
 
 Defaults have been set for the named arguments: 132 (a Higher Education licence), 2 (scanning), 'ISBN', and 'key.txt', respectively.
