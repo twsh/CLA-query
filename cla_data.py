@@ -12,12 +12,14 @@ code_to_licence_type = {
     '134': 'Business',
     '136': 'Higher Education',
     '137': 'Law',
-    '140': 'Business Multinational',
+    '140': 'Extended Multinational',
     '141': 'Pharmaceutical',
     '143': 'Schools',
-    '154': 'Public Administration',
-    '230': 'Pharmaceutical Multinational',
-    '232': 'Media Monitoring'
+    '154': 'Public Sector',
+    '230': 'Extended Pharmaceutical Multinational',
+    '232': 'Media Monitoring',
+    '234': 'Multinational',
+    '235': 'Pharmaceutical Multinational'
 }
 # The possible licence types
 
